@@ -1,0 +1,280 @@
+
+a.log_icon i {
+   font-size: 25px;
+   margin-right: 5px;
+   color: #099cd0;
+   
+}
+a.log_icon {
+   color: #099cd0 !important;
+   font-weight: 600;
+   margin-left: 10px;
+}
+a.mbile_login{
+   right: 50px;
+   position: absolute;
+   top: 12px;
+}
+li a.mbile_login:hover {
+   background-color: none;
+}
+.earn_menu{
+   left: 590px !important;
+}
+.color_icons ul li a i {
+ width: 20px;
+}
+
+.color_1{
+ color: #ab3dff;
+}
+
+.color_2{
+ color: #00e0e0;
+}
+
+.color_3{
+ color: #ffbb3d;
+}
+
+.color_4{
+ color: #ff5c5c;
+}
+
+.color_5{
+ color: #008080;
+}
+
+.color_6{
+ color: #b9894b;
+}
+
+.color_7{
+ color: #004242;
+}
+
+.color_8{
+ color: #cd5c5c;
+}
+
+.color_9{
+ color: #3cb371;
+}
+
+.color_10{
+ color: #4f86f7;
+}
+
+.color_11{
+ color: #a50b5e;
+}
+
+.color_12{
+ color: #ffcc00;
+}
+
+
+
+.video_reviews {
+   padding: 50px 0 150px;
+   background-image: linear-gradient( 315deg, #6855f7 0, #2d9fde 74%);
+   box-shadow: 0 2px 2px 0 #b5b5b585;
+}
+.video_inner {
+   background-color: #fff;
+   padding: 50px;
+   border-radius: 20px;
+   margin: 0 15px;
+}
+
+.carousel-control-next, .carousel-control-prev{
+ width: 0 !important;
+}
+
+.client_bio{
+ min-height: 375px;
+}
+.client_bio h2 {
+   font-size: 30px;
+   font-weight: 700;
+   color: #2d9fde;
+}
+.client_bio h3 {
+   font-size: 20px;
+   font-weight: 700;
+   color: #212529;
+}
+.client_bio h4 {
+   font-size: 18px;
+   font-weight: 500;
+   color: #212529;
+}
+.client_bio p {
+   font-size: 17px;
+   margin-bottom: 15px;
+}
+.golden_stars {
+   margin-bottom: 20px;
+}
+.golden_stars span i {
+   color: #ffa600;
+}
+.video_navigation {
+   margin-top: 30px;
+}
+.video_navigation img {
+   width: 80px;
+   border-radius: 50%;
+   margin: 0 20px;
+   border: 2px solid #fff;
+}
+.video_navigation img {
+   opacity: .6;
+}
+.video_navigation .active {
+   opacity: 1;
+}
+.image_icons li {
+   box-sizing: content-box;
+   -ms-flex: inherit;
+   flex: inherit;
+   width: inherit;
+   height: inherit;
+   margin-right: 3px;
+   margin-left: 3px;
+   text-indent: inherit;
+   cursor: pointer;
+   background-color: transparent;
+   background-clip: padding-box;
+   border-top: 10px solid transparent;
+   border-bottom: 10px solid transparent;
+   opacity: .5;
+   transition: opacity .6s ease;
+   position: relative;
+   top: 135px;
+}
+.image_icons li {
+   margin: 0 15px;
+}
+.image_icons li img {
+   border-radius: 50%;
+   border: 2px solid #fff;
+   width: 70px;
+}
+.video_review_title h2 {
+   font-size: 40px;
+   font-weight: 700;
+   color: #fff;
+}
+span.right_sqauare_arrow {
+   padding: 10px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   color: #576af0;
+   position: relative;
+   right: -30px;
+   font-size: 20px;
+}
+span.left_sqauare_arrow {
+   padding: 10px;
+   background-color: #ffffff;
+   border-radius: 5px;
+   color: #2d9fde;
+   position: relative;
+   left: -30px;
+   font-size: 20px;
+}
+
+.client_bio h3 span {
+ font-weight: 400;
+ color: #5f5f5f;
+ font-size: 18px;
+}
+
+
+@media (max-width:767px) {
+   span.right_sqauare_arrow {
+      right: -46px;
+      display: none;
+   }
+   span.left_sqauare_arrow {
+      left: -46px;
+      display: none;
+   }
+   .video_inner {
+      padding: 15px;
+      border-radius: 5px;
+      margin: 0;
+   }
+   .video_review_title h2 {
+    font-size: 26px;
+ }
+ .client_bio h2 {
+    font-size: 20px;
+ }
+
+ .client_bio h4 {
+    font-size: 16px;
+ }
+
+ .client_bio h3 {
+    font-size: 17px;
+    margin-bottom: 20px;
+ }
+
+ .client_bio h3 span {
+    font-size: 15px;
+
+ }
+
+}
+
+
+
+
+.cta_footer{
+ background-image: linear-gradient(90deg, #ff6910 0, #ff9900);
+ color: #fff;
+ padding: 7px 0;
+ font-size: 16px;
+ font-weight: 500;
+ position: fixed;
+ bottom: 0;
+ width: 100%;
+ z-index: 99999999999;
+}
+
+.cta_footer a{
+ color: #fff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.white_bar{
+ border-right: 2px solid #fff;
+}
+
+.fixed_cta i{
+ margin-right: 5px;
+}
+
+span.only_phone{
+ display: none;
+}
+
+
+@media (max-width: 1200px){
+ .cta_footer i{
+  font-size: 20px;
+}
+
+.cta_footer span{
+  display: none;
+}
+
+span.only_phone{
+ display: block;
+}
+}
+
